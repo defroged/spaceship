@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.story-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.choices {
+    margin-top: 20px;
+}
