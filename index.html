@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Story Title</title>
+    <title>Awakening in Darkness</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
+    <audio id="backgroundSound" loop autoplay>
+        <source src="sounds/robot1.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
     <div class="story-section">
-        <p>Your story content here...</p>
+        <p>You find yourself awakening in utter darkness, unable to even glimpse your own hands. Out of nowhere, a soft glow flickers nearby. Drawn to it, you notice the light is not only shifting but also emitting eerie sounds, much like a door's creak. Do you cautiously move closer to the light, or stay put and watch?</p>
         <div class="choices">
-            <button onclick="navigate('page2.html')">Go to Page 2</button>
-            <button onclick="navigate('page3.html')">Go to Page 3</button>
+            <button onclick="navigate('investigate-light.html')">Investigate the light</button>
+            <button onclick="navigate('stand-back.html')">Stand back and wait</button>
         </div>
     </div>
 </body>
